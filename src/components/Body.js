@@ -18,6 +18,17 @@ export default function Body() {
   return (
     <React.Fragment>
       <Box textAlign="center">
+        <Typography
+          variant="h4"
+          color="black"
+          sx={{
+            fontFamily: "Dancing Script",
+            marginTop: 2,
+            fontWeight: "bold",
+          }}
+        >
+          Follow us on Instagram!
+        </Typography>
         <IconButton
           href="https://www.instagram.com/naild_it_by_anni/"
           sx={{
@@ -35,18 +46,49 @@ export default function Body() {
             }}
           />
         </IconButton>
+      </Box>
+      <Box textAlign="center" sx={{ marginTop: 3 }}>
         <Typography
-          variant="h4"
-          color="black"
-          sx={{ fontFamily: "Dancing Script" }}
+          variant="h3"
+          sx={{
+            fontFamily: "Dancing Script",
+            textDecoration: "underline dotted",
+          }}
         >
-          Follow us on Instagram!
+          Some examples of our work
         </Typography>
       </Box>
 
       <Box>
         <ImageList variant="masonry" cols={3} gap={8}>
-          {images.map((item) => (
+          {nailImages.map((item) => (
+            <ImageListItem key={item.img}>
+              <img
+                src={`${item.img}`}
+                srcSet={`${item.img}`}
+                loading="lazy"
+                alt={item.title}
+              />
+            </ImageListItem>
+          ))}
+        </ImageList>
+      </Box>
+
+      <Box textAlign="center" sx={{ marginTop: 5 }}>
+        <Typography
+          variant="h3"
+          sx={{
+            fontFamily: "Dancing Script",
+            textDecoration: "underline dotted",
+          }}
+        >
+          Our shop
+        </Typography>
+      </Box>
+
+      <Box>
+        <ImageList variant="masonry" cols={3} gap={8}>
+          {insideImages.map((item) => (
             <ImageListItem key={item.img}>
               <img
                 src={`${item.img}`}
@@ -168,7 +210,7 @@ export default function Body() {
   );
 }
 
-const images = [
+const insideImages = [
   {
     img: "https://lh3.googleusercontent.com/p/AF1QipO0UefnZFX5kB6gOR1a5vczGIdOyZIhYssnNRmh=s680-w680-h510",
     title: "Entrance",
@@ -188,5 +230,12 @@ const images = [
   {
     img: "https://lh3.googleusercontent.com/p/AF1QipO0fN69N8Cf5F4O7-Vy5SIpeut4PuLDCWMNfCLY=s680-w680-h510",
     title: "Inside3",
+  },
+];
+
+const nailImages = [
+  {
+    img: "",
+    title: "nail1",
   },
 ];
