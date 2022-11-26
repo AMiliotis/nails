@@ -104,8 +104,8 @@ export default function Body() {
         </Typography>
       </Box>
 
-      <Box>
-        <ImageList variant="masonry" cols={3} gap={3} sx={{ padding: 6 }}>
+      <Box marginTop={7} marginLeft={3} marginRight={3}>
+        <ImageList variant="masonry" cols={3} gap={3}>
           {insideImages.map((item) => (
             <ImageListItem key={item.img}>
               <img
