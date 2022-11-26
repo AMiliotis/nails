@@ -225,19 +225,19 @@ export default function Body() {
 
 const insideImages = [
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipO0UefnZFX5kB6gOR1a5vczGIdOyZIhYssnNRmh=s680-w680-h510",
+    img: "images/outside1.jpg",
     title: "Entrance",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipNZ4FNHT3RSCn2cD_UuaE28tD_CCtJEOKI_yeW7=s680-w680-h510",
+    img: "images/inside1.jpg",
     title: "Inside",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipOMthc8kfFHdMA798a7BRBXnaRgSzbWNiyYlLki=s680-w680-h510",
+    img: "images/inside2.jpg",
     title: "Inside2",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipO0fN69N8Cf5F4O7-Vy5SIpeut4PuLDCWMNfCLY=s680-w680-h510",
+    img: "images/inside3.jpg",
     title: "Inside3",
   },
 ];
