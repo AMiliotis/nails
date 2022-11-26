@@ -1,6 +1,7 @@
 import {
+  Card,
+  CardContent,
   Divider,
-  IconButton,
   ImageList,
   ImageListItem,
   Paper,
@@ -8,89 +9,14 @@ import {
 } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 import React from "react";
-
-import InstagramIcon from "@mui/icons-material/Instagram";
+import Followus from "./bodyComponents/followus";
+import Igposts from "./bodyComponents/igposts";
 
 export default function Body() {
   return (
     <React.Fragment>
-      <Box textAlign="center">
-        <Typography
-          variant="h4"
-          color="black"
-          noWrap
-          sx={{
-            fontFamily: "Dancing Script",
-            marginTop: 2,
-            fontWeight: "bold",
-          }}
-        >
-          Follow us on Instagram!
-        </Typography>
-        <IconButton
-          href="https://www.instagram.com/naild_it_by_anni/"
-          sx={{
-            flexWrap: "nowrap",
-            marginTop: 2,
-            border: "2px solid black",
-            background:
-              "linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)",
-          }}
-        >
-          <InstagramIcon
-            fontSize="large"
-            sx={{
-              color: "white",
-            }}
-          />
-        </IconButton>
-      </Box>
-
-      <Stack
-        direction="row"
-        justifyContent="space-evenly"
-        alignItems="center"
-        flexWrap="wrap"
-        sx={{ marginTop: 3, padding: 2 }}
-      >
-        {" "}
-        <iframe
-          title="IPost1"
-          src="https://www.instagram.com/p/Ci5WyVgDuDi/embed"
-          width="400"
-          height="400"
-          frameborder="0"
-          scrolling="no"
-          allowtransparency="true"
-        ></iframe>
-        <iframe
-          title="IPost2"
-          src="https://www.instagram.com/p/CiNzdOTDADf/embed"
-          width="400"
-          height="400"
-          frameborder="0"
-          scrolling="no"
-          allowtransparency="true"
-        ></iframe>
-        <iframe
-          title="IPost3"
-          src="https://www.instagram.com/p/Ck-uy4XD4u1/embed"
-          width="400"
-          height="400"
-          frameborder="0"
-          scrolling="no"
-          allowtransparency="true"
-        ></iframe>
-        <iframe
-          title="IPost4"
-          src="https://www.instagram.com/p/CeBH8ilDI3A/embed"
-          width="400"
-          height="400"
-          frameborder="0"
-          scrolling="no"
-          allowtransparency="true"
-        ></iframe>
-      </Stack>
+      <Followus />
+      <Igposts />
 
       <Box textAlign="center" sx={{ marginTop: 5, marginBottom: -5 }}>
         <Typography
@@ -118,6 +44,29 @@ export default function Body() {
           ))}
         </ImageList>
       </Box>
+
+      <Stack
+        direction="row"
+        justifyContent="space-around"
+        alignItems="center"
+        flexWrap="wrap"
+      >
+        <Card sx={{ marginBottom: 2 }}>
+          <CardContent>
+            <Typography variant="h3" gutterBottom fontFamily={"Dancing Script"}>
+              Prices
+            </Typography>
+          </CardContent>
+        </Card>
+
+        <Card sx={{ marginBottom: 2 }}>
+          <CardContent>
+            <Typography variant="h3" gutterBottom fontFamily={"Dancing Script"}>
+              Prices
+            </Typography>
+          </CardContent>
+        </Card>
+      </Stack>
 
       <Stack
         sx={{ marginTop: 2 }}
