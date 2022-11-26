@@ -107,7 +107,7 @@ export default function Body() {
       <Box marginTop={7} marginLeft={3} marginRight={3}>
         <ImageList variant="masonry" cols={3} gap={3}>
           {insideImages.map((item) => (
-            <ImageListItem key={item.img}>
+            <ImageListItem key={item.img} className="img-container">
               <img
                 src={`${item.img}`}
                 srcSet={`${item.img}`}
