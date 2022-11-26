@@ -22,7 +22,7 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 export default function Header() {
   return (
     <Box>
-      <AppBar position="sticky">
+      <AppBar position="static">
         <StyledToolbar>
           <Typography
             marginTop={2}
@@ -33,7 +33,6 @@ export default function Header() {
             NAIL⬩D IT
             <Typography
               variant="h4"
-              noWrap
               component="div"
               sx={{
                 flexGrow: 1,

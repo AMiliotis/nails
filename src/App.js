@@ -4,7 +4,7 @@ import Main from "./pages/Main";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 
-const darkTheme = createTheme({
+const theme = createTheme({
   palette: {
     type: "light",
     primary: {
@@ -50,10 +50,30 @@ const darkTheme = createTheme({
   },
 });
 
+theme.typography.h3 = {
+  fontSize: "1.5rem",
+  "@media (min-width:600px)": {
+    fontSize: "1.5rem",
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "2.2rem",
+  },
+};
+
+theme.typography.h4 = {
+  fontSize: "1.7rem",
+  "@media (min-width:600px)": {
+    fontSize: "1.9rem",
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "2.2rem",
+  },
+};
+
 function App() {
   return (
     <React.Fragment>
-      <ThemeProvider theme={darkTheme}>
+      <ThemeProvider theme={theme}>
         <CssBaseline />
         <Main />
       </ThemeProvider>

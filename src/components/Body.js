@@ -18,6 +18,7 @@ export default function Body() {
         <Typography
           variant="h4"
           color="black"
+          noWrap
           sx={{
             fontFamily: "Dancing Script",
             marginTop: 2,
@@ -47,17 +48,17 @@ export default function Body() {
 
       <Stack
         direction="row"
-        justifyContent="center"
+        justifyContent="space-evenly"
         alignItems="center"
-        spacing={2}
-        sx={{ marginTop: 3 }}
+        flexWrap="wrap"
+        sx={{ marginTop: 3, padding: 2 }}
       >
         {" "}
         <iframe
           title="IPost1"
           src="https://www.instagram.com/p/Ci5WyVgDuDi/embed"
           width="400"
-          height="450"
+          height="400"
           frameborder="0"
           scrolling="no"
           allowtransparency="true"
@@ -66,7 +67,7 @@ export default function Body() {
           title="IPost2"
           src="https://www.instagram.com/p/CiNzdOTDADf/embed"
           width="400"
-          height="450"
+          height="400"
           frameborder="0"
           scrolling="no"
           allowtransparency="true"
@@ -75,7 +76,7 @@ export default function Body() {
           title="IPost3"
           src="https://www.instagram.com/p/Ck-uy4XD4u1/embed"
           width="400"
-          height="450"
+          height="400"
           frameborder="0"
           scrolling="no"
           allowtransparency="true"
@@ -84,7 +85,7 @@ export default function Body() {
           title="IPost4"
           src="https://www.instagram.com/p/CeBH8ilDI3A/embed"
           width="400"
-          height="450"
+          height="400"
           frameborder="0"
           scrolling="no"
           allowtransparency="true"
