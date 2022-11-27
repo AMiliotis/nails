@@ -55,11 +55,12 @@ export default function Header() {
               <CallIcon sx={{ color: "limegreen" }} />
               <Typography
                 variant="h6"
+                fontWeight={"500"}
                 sx={{
                   alignSelf: "flex-end",
                 }}
               >
-                210-9883993
+                21-0988-3993
               </Typography>
             </Stack>
             <Divider sx={{ marginTop: 2 }} />
@@ -79,6 +80,7 @@ export default function Header() {
               >
                 <Typography
                   variant="h6"
+                  fontWeight={"530"}
                   sx={{
                     alignSelf: "flex-end",
                     fontFamily: "Roboto",
