@@ -8,7 +8,8 @@ export default function BHours() {
       display="flex"
       justifyContent="center"
       alignItems="center"
-      marginBottom={2}
+      marginTop={3}
+      marginBottom={1}
       sx={{
         "& > :not(style)": {
           m: 1,
@@ -17,7 +18,14 @@ export default function BHours() {
         },
       }}
     >
-      <Paper elevation={5} sx={{ bgcolor: "antiquewhite" }}>
+      <Paper
+        elevation={5}
+        sx={{
+          bgcolor: "antiquewhite",
+          border: "1px solid black",
+          boxShadow: "3px 3px 6px gray",
+        }}
+      >
         <Typography
           variant="h3"
           textAlign="center"

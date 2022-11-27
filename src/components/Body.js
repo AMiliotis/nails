@@ -3,7 +3,6 @@ import Followus from "./bodyComponents/followus";
 import Igposts from "./bodyComponents/igposts";
 import Shoppics from "./bodyComponents/shoppics";
 import Prices from "./bodyComponents/prices";
-import BHours from "./bodyComponents/busnshours";
 import GMaps from "./bodyComponents/gmaps";
 
 export default function Body() {
@@ -13,7 +12,6 @@ export default function Body() {
       <Igposts />
       <Shoppics />
       <Prices />
-      <BHours />
       <GMaps />
     </React.Fragment>
   );
