@@ -30,7 +30,7 @@ export default function Header() {
             component="div"
             sx={{ flexGrow: 1, align: "center", fontFamily: "Roboto" }}
           >
-            NAIL⬩D IT Test
+            NAIL⬩D IT
             <Typography
               variant="h4"
               component="div"
