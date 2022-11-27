@@ -8,7 +8,7 @@ export default function BHours() {
       display="flex"
       justifyContent="center"
       alignItems="center"
-      marginTop={3}
+      marginTop={1}
       marginBottom={1}
       sx={{
         "& > :not(style)": {

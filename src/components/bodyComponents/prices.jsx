@@ -114,7 +114,14 @@ export default function Prices() {
           </CardContent>
         </Card>
 
-        <Card sx={{ marginBottom: 2, minHeight: 981.07, maxWidth: 607.17 }}>
+        <Card
+          sx={{
+            marginBottom: 2,
+            minHeight: 981.07,
+            maxHeight: 981.07,
+            maxWidth: 607.17,
+          }}
+        >
           <CardContent>
             <Typography variant="h4" gutterBottom fontFamily={"Dancing Script"}>
               Nails
@@ -163,10 +170,14 @@ export default function Prices() {
             >
               Μακιγίαζ από 25€
             </Typography>
-            <Typography variant="h6" fontWeight={"500"} gutterBottom>
+            <Typography variant="h6" fontWeight={"500"}>
               Βραδινό / Νυφικό - Evening / Bridal
             </Typography>
+            <Typography variant="p" marginLeft={2}>
+              *Σημείωση: Όλα τα εργαλεία είναι αποστηρωμένα σε κλίβανο
+            </Typography>
             <Divider variant="middle" />
+
             <BHours />
           </CardContent>
         </Card>
