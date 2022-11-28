@@ -35,7 +35,18 @@ export default function Header() {
               color: "text.secondary",
             }}
           >
-            NAIL⬩D IT
+            NAIL
+            <Typography
+              display="inline"
+              sx={{
+                writingMode: "vertical-rl",
+                letterSpacing: "10px",
+                color: "text.secondary",
+              }}
+            >
+              ✦
+            </Typography>
+            D IT
             <Typography
               variant="h4"
               component="div"
