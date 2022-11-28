@@ -21,7 +21,7 @@ export default function BHours() {
       <Paper
         elevation={5}
         sx={{
-          bgcolor: "secondary.main",
+          bgcolor: "pink",
           border: "1px solid black",
           boxShadow: "3px 3px 6px gray",
         }}
