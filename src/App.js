@@ -2,13 +2,22 @@ import React from "react";
 import "./App.css";
 import Main from "./pages/Main";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { CssBaseline } from "@mui/material";
+import { CssBaseline, Paper } from "@mui/material";
+import Image from "./components/background/background.jpg";
+
+const styles = {
+  paperContainer: {
+    backgroundImage: `url(${Image})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  },
+};
 
 const theme = createTheme({
   palette: {
-    type: "light",
+    type: "dark",
     primary: {
-      main: "#b58ebc",
+      main: "#171512",
     },
     secondary: {
       main: "#f2d7e8",
@@ -17,12 +26,14 @@ const theme = createTheme({
       main: "#017f10",
     },
     text: {
-      secondary: "#ffda00",
+      secondary: "#E861A0",
     },
     background: {
       default: "#d1edea",
     },
-    divider: "#000000",
+    divider: {
+      secondary: "#FFFFFF",
+    },
   },
 
   typography: {
@@ -92,12 +103,12 @@ theme.typography.h6 = {
 
 function App() {
   return (
-    <React.Fragment>
+    <Paper style={styles.paperContainer}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Main />
       </ThemeProvider>
-    </React.Fragment>
+    </Paper>
   );
 }
 

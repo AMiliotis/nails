@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 
 export default function GMaps() {
   return (
-    <Box textAlign="center" sx={{ padding: 0.6, bgcolor: "secondary.main" }}>
+    <Box textAlign="center" sx={{ padding: 0.6 }}>
       <iframe
         title="Bussiness"
         style={{ border: 0 }}

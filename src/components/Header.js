@@ -28,7 +28,12 @@ export default function Header() {
             marginTop={2}
             variant="h3"
             component="div"
-            sx={{ flexGrow: 1, align: "center", fontFamily: "Roboto" }}
+            sx={{
+              flexGrow: 1,
+              align: "center",
+              fontFamily: "Roboto",
+              color: "text.secondary",
+            }}
           >
             NAIL⬩D IT
             <Typography
@@ -58,6 +63,7 @@ export default function Header() {
                 fontWeight={"500"}
                 sx={{
                   alignSelf: "flex-end",
+                  color: "text.secondary",
                 }}
               >
                 21-0988-3993
@@ -84,6 +90,7 @@ export default function Header() {
                   sx={{
                     alignSelf: "flex-end",
                     fontFamily: "Roboto",
+                    color: "text.secondary",
                   }}
                 >
                   Terpsichoris 22, Paleo Faliro 175 62
