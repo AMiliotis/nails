@@ -62,23 +62,36 @@ export default function Header() {
 
           <Stack>
             <Stack
-              marginLeft={1}
               direction="row"
               marginTop={2}
               divider={<Divider orientation="vertical" flexItem />}
-              spacing={2}
+              spacing={1}
             >
-              <CallIcon sx={{ color: "limegreen" }} />
-              <Typography
-                variant="h6"
-                fontWeight={"500"}
+              <IconButton
                 sx={{
-                  alignSelf: "flex-end",
-                  color: "text.secondary",
+                  "&:hover": {
+                    backgroundColor: "#ffffff",
+
+                    boxShadow: "none",
+                  },
                 }}
+                href="tel:2109883993"
               >
-                21-0988-3993
-              </Typography>
+                <CallIcon sx={{ color: "limegreen" }} />
+              </IconButton>
+              <Link href="tel:2109883993" underline="hover" color="inherit">
+                <Typography
+                  marginTop={0.5}
+                  variant="h6"
+                  fontWeight={"400"}
+                  sx={{
+                    alignSelf: "flex-end",
+                    color: "text.secondary",
+                  }}
+                >
+                  21-0988-3993
+                </Typography>
+              </Link>
             </Stack>
             <Divider sx={{ marginTop: 2 }} />
             <Stack
@@ -87,7 +100,16 @@ export default function Header() {
               divider={<Divider orientation="vertical" flexItem />}
               spacing={1}
             >
-              <IconButton href="https://www.google.com/maps/place/NAIL'D+IT+by+Anni/@37.9243577,23.6948554,17z/data=!3m1!4b1!4m5!3m4!1s0xafec0a33d8961483:0xdcc5eeb411a0426c!8m2!3d37.9243535!4d23.6970441">
+              <IconButton
+                sx={{
+                  "&:hover": {
+                    backgroundColor: "#ffffff",
+
+                    boxShadow: "none",
+                  },
+                }}
+                href="https://www.google.com/maps/place/NAIL'D+IT+by+Anni/@37.9243577,23.6948554,17z/data=!3m1!4b1!4m5!3m4!1s0xafec0a33d8961483:0xdcc5eeb411a0426c!8m2!3d37.9243535!4d23.6970441"
+              >
                 <BusinessIcon sx={{ color: "limegreen" }} />
               </IconButton>
               <Link
@@ -96,15 +118,16 @@ export default function Header() {
                 color="inherit"
               >
                 <Typography
+                  marginTop={0.5}
                   variant="h6"
-                  fontWeight={"530"}
+                  fontWeight={"400"}
                   sx={{
                     alignSelf: "flex-end",
                     fontFamily: "Roboto",
                     color: "text.secondary",
                   }}
                 >
-                  Terpsichoris 22, Paleo Faliro 175 62
+                  Terpsichoris 22, Paleo Faliro
                 </Typography>
               </Link>
             </Stack>

@@ -8,7 +8,8 @@ export default function Shoppics() {
           variant="h3"
           sx={{
             fontFamily: "Dancing Script",
-            textDecoration: "underline ",
+            textDecoration: "underline",
+            textDecorationSkipInk: "none",
           }}
         >
           Our workshop
