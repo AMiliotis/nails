@@ -22,7 +22,12 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 export default function Header() {
   return (
     <Box>
-      <AppBar position="static">
+      <AppBar
+        position="static"
+        sx={{
+          boxShadow: "0px 5px 10px black",
+        }}
+      >
         <StyledToolbar>
           <Typography
             marginTop={2}
