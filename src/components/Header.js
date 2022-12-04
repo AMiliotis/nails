@@ -88,7 +88,7 @@ export default function Header() {
               spacing={1}
             >
               <IconButton href="https://www.google.com/maps/place/NAIL'D+IT+by+Anni/@37.9243577,23.6948554,17z/data=!3m1!4b1!4m5!3m4!1s0xafec0a33d8961483:0xdcc5eeb411a0426c!8m2!3d37.9243535!4d23.6970441">
-                <BusinessIcon sx={{ color: "burlywood" }} />
+                <BusinessIcon sx={{ color: "limegreen" }} />
               </IconButton>
               <Link
                 href="https://www.google.com/maps/place/NAIL'D+IT+by+Anni/@37.9243577,23.6948554,17z/data=!3m1!4b1!4m5!3m4!1s0xafec0a33d8961483:0xdcc5eeb411a0426c!8m2!3d37.9243535!4d23.6970441"
