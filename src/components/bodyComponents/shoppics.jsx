@@ -1,8 +1,6 @@
 import { Box, ImageListItem, Typography } from "@mui/material";
 import React from "react";
 import Carousel from "react-material-ui-carousel";
-import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 
 export default function Shoppics() {
   return (
