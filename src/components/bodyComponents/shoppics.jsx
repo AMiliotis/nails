@@ -1,5 +1,9 @@
-import { Box, ImageList, ImageListItem, Typography } from "@mui/material";
+import { Box, ImageListItem, Typography } from "@mui/material";
 import React from "react";
+import Carousel from "react-material-ui-carousel";
+import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
+import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+
 export default function Shoppics() {
   return (
     <React.Fragment>
@@ -16,8 +20,31 @@ export default function Shoppics() {
         </Typography>
       </Box>
 
-      <Box marginTop={7} marginLeft={3} marginRight={3}>
-        <ImageList variant="masonry" cols={3} gap={3}>
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        marginTop={7}
+        marginBottom={7}
+      >
+        <Carousel
+          sx={{ width: "45%", height: 650 }}
+          indicators="true"
+          interval="3000"
+          animation="slide"
+          duration="600"
+          navButtonsAlwaysVisible
+          fullHeightHover={false} // We want the nav buttons wrapper to only be as big as the button element is
+          navButtonsProps={{
+            // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
+            style: {
+              backgroundColor: "black",
+              borderRadius: 20,
+            },
+          }}
+          NextIcon={<ArrowRightIcon />}
+          PrevIcon={<ArrowLeftIcon />}
+        >
           {insideImages.map((item) => (
             <ImageListItem key={item.img} className="img-container">
               <img
@@ -28,21 +55,13 @@ export default function Shoppics() {
               />
             </ImageListItem>
           ))}
-        </ImageList>
+        </Carousel>
       </Box>
     </React.Fragment>
   );
 }
 
 const insideImages = [
-  {
-    img: "images/outside1.jpg",
-    title: "Entrance",
-  },
-  {
-    img: "images/inside1.jpg",
-    title: "Inside",
-  },
   {
     img: "images/inside2.jpg",
     title: "Inside2",
