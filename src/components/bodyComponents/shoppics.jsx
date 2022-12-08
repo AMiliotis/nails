@@ -33,17 +33,7 @@ export default function Shoppics() {
           interval="3000"
           animation="slide"
           duration="600"
-          navButtonsAlwaysVisible
-          fullHeightHover={false} // We want the nav buttons wrapper to only be as big as the button element is
-          navButtonsProps={{
-            // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
-            style: {
-              backgroundColor: "black",
-              borderRadius: 20,
-            },
-          }}
-          NextIcon={<ArrowRightIcon />}
-          PrevIcon={<ArrowLeftIcon />}
+          navButtonsAlwaysInvisible
         >
           {insideImages.map((item) => (
             <ImageListItem key={item.img} className="img-container">
