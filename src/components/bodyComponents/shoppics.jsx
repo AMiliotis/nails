@@ -23,10 +23,9 @@ export default function Shoppics() {
         justifyContent="center"
         alignItems="center"
         marginTop={7}
-        marginBottom={7}
       >
         <Carousel
-          sx={{ width: "45%", height: 650 }}
+          sx={{ width: 650, height: 550 }}
           indicators="true"
           interval="3000"
           animation="slide"
