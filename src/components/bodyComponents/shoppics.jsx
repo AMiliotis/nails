@@ -28,7 +28,6 @@ export default function Shoppics() {
           sx={{ width: 650, height: 550 }}
           indicators="true"
           interval="3000"
-          animation="slide"
           duration="600"
           navButtonsAlwaysInvisible
         >
