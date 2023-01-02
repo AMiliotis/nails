@@ -16,7 +16,7 @@ export default function Prices() {
         <Card sx={{ marginBottom: 2 }}>
           <CardContent>
             <Typography variant="h3" gutterBottom fontFamily={"Dancing Script"}>
-              Prices
+              Υπηρεσίες
             </Typography>
             <Divider variant="middle" />
             <Typography variant="h4" gutterBottom fontFamily={"Dancing Script"}>
@@ -30,49 +30,49 @@ export default function Prices() {
               Μανικιούρ/Πεντικιούρ
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Σχήμα και χρώμα / Shape & colour 5€
+              Σχήμα και χρώμα / Shape & colour
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Βάψιμο με βερνίκι
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Μανικιούρ express / Express manicure 8€
+              Μανικιούρ express / Express manicure
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Κόψιμο νυχιών, βάψιμο με βερνίκι
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Μανικιούρ ολοκληρωμένο / Full manicure 12€
+              Μανικιούρ ολοκληρωμένο / Full manicure
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Βάψιμο με βερνίκι
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
-              Γαλλικό μανικιούρ / French manicure +2€
+              Γαλλικό μανικιούρ / French manicure
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Πεντικιούρ απλό / Simple pedicure 18€
+              Πεντικιούρ απλό / Simple pedicure
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Κόψιμο νυχιών, επωνύχιων, φτέρνες, peeling, βάψιμο
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
-              Πεντικιούρ express / Express pedicure 8€
+              Πεντικιούρ express / Express pedicure
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Θεραπευτικό πεντικιούρ / Therapeutic pedicure 24€
+              Θεραπευτικό πεντικιούρ / Therapeutic pedicure
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Είσφρυση νυχιών, αφαίρεση κάλων, σκληρύνσεων, peeling, βάψιμο
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Ανδρικό μανικιούρ / Male manicure 10€
+              Ανδρικό μανικιούρ / Male manicure
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Κόψιμο νυχιών, επωνύχιων, peeling
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Ανδρικό πεντικιούρ / Male pedicure 15€
+              Ανδρικό πεντικιούρ / Male pedicure
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Κόψιμο νυχιών, επωνύχιων, φτέρνες, peeling
@@ -85,31 +85,31 @@ export default function Prices() {
               Τεχνητά Νύχια
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Επιμήκυνση νυχιών / Nail enlargement 35€
+              Επιμήκυνση νυχιών / Nail enlargement
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Gel/Acrygel/Ακριλικό, χρώμα & nail art δώρο
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Συντήρηση τεχνιτών νυχιών/ Artificial nail maintenance 30€
+              Συντήρηση τεχνιτών νυχιών/ Artificial nail maintenance
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Gel/Acrygel/Ακριλικό & χρώμα και 1 nail art δώρο
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Φυσική ενίσχυση / Nail reinforcement 25€
+              Φυσική ενίσχυση / Nail reinforcement
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Gel/Acrygel/Ακριλικό & χρώμα και 1 nail art δώρο
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Αφαίρεση τεχνιτών νυχιών / Artifical nail removal 10€
+              Αφαίρεση τεχνιτών νυχιών / Artifical nail removal
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Gel/Acrygel/Ακριλικό
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Dipping 25€
+              Dipping
             </Typography>
           </CardContent>
         </Card>
@@ -134,30 +134,30 @@ export default function Prices() {
               Ημιμόνιμο
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
-              Σχήμα & χρώμα / Shape & colour 10€
+              Σχήμα & χρώμα / Shape & colour
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
               Μανικιούρ ολοκληρωμένο με ημιμόνιμο χρώμα / Full manicure with
-              semi-permanent colour 15€
+              semi-permanent colour
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
-              Γαλλικό μανικιούρ ημιμόνιμο / French semi-permanent manicure +2€
+              Γαλλικό μανικιούρ ημιμόνιμο / French semi-permanent manicure
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
-              Όμπρε με αερογράφο / Ombre with airbrush +5€
+              Όμπρε με αερογράφο / Ombre with airbrush
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
-              Πεντικιούρ ημιμόνιμο / Semi-permanent pedicure 20€
+              Πεντικιούρ ημιμόνιμο / Semi-permanent pedicure
             </Typography>
             <Typography variant="p" sx={{ color: "gray" }} gutterBottom>
               Κόψιμο νυχιών, επωνύχιων, φτέρνες, βάψιμο με ημιμόνιμο χρώμα,
               peeling
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
-              Γαλλικό πεντικιούρ ημιμόνιμο / French semi-permanent pedicure +2€
+              Γαλλικό πεντικιούρ ημιμόνιμο / French semi-permanent pedicure
             </Typography>
             <Typography variant="h6" fontWeight={"500"} gutterBottom>
-              Αφαίρεση / Removal +5€
+              Αφαίρεση / Removal
             </Typography>
 
             <Typography variant="h4" gutterBottom fontFamily={"Dancing Script"}>
@@ -168,7 +168,7 @@ export default function Prices() {
               gutterBottom
               sx={{ textDecoration: "underline" }}
             >
-              Μακιγίαζ από 25€
+              Μακιγίαζ από
             </Typography>
             <Typography variant="h6" fontWeight={"500"}>
               Βραδινό / Νυφικό - Evening / Bridal
