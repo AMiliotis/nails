@@ -16,7 +16,7 @@ export default function Prices() {
         <Card sx={{ marginBottom: 2 }}>
           <CardContent>
             <Typography variant="h3" gutterBottom fontFamily={"Dancing Script"}>
-              Υπηρεσίες
+              Services
             </Typography>
             <Divider variant="middle" />
             <Typography variant="h4" gutterBottom fontFamily={"Dancing Script"}>
