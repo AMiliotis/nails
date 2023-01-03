@@ -13,38 +13,34 @@ export default function Igposts() {
       {" "}
       <iframe
         title="IPost1"
-        src="https://www.instagram.com/p/Ci5WyVgDuDi/embed"
+        src="https://www.instagram.com/reel/CljBLtijHsb/embed"
         width="400"
         height="400"
         frameborder="0"
-        scrolling="no"
         allowtransparency="true"
       ></iframe>
       <iframe
         title="IPost2"
-        src="https://www.instagram.com/p/CiNzdOTDADf/embed"
+        src="https://www.instagram.com/p/Cmtwd62osRE/embed"
         width="400"
         height="400"
         frameborder="0"
-        scrolling="no"
         allowtransparency="true"
       ></iframe>
       <iframe
         title="IPost3"
-        src="https://www.instagram.com/p/Ck-uy4XD4u1/embed"
+        src="https://www.instagram.com/p/ClGdQrgj8C_/embed"
         width="400"
         height="400"
         frameborder="0"
-        scrolling="no"
         allowtransparency="true"
       ></iframe>
       <iframe
         title="IPost4"
-        src="https://www.instagram.com/p/CeBH8ilDI3A/embed"
+        src="https://www.instagram.com/p/CmO8G4mjwNC/embed"
         width="400"
         height="400"
         frameborder="0"
-        scrolling="no"
         allowtransparency="true"
       ></iframe>
     </Stack>
