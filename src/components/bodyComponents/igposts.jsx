@@ -15,7 +15,7 @@ export default function Igposts() {
         title="IPost1"
         src="https://www.instagram.com/p/CmO8G4mjwNC/embed"
         width="400"
-        height="400"
+        height="420"
         frameborder="0"
         allowtransparency="true"
       ></iframe>
@@ -23,7 +23,7 @@ export default function Igposts() {
         title="IPost2"
         src="https://www.instagram.com/p/ClYektmjo9D/embed"
         width="400"
-        height="400"
+        height="420"
         frameborder="0"
         allowtransparency="true"
       ></iframe>
@@ -31,7 +31,7 @@ export default function Igposts() {
         title="IPost3"
         src="https://www.instagram.com/p/ClGdQrgj8C_/embed"
         width="400"
-        height="400"
+        height="420"
         frameborder="0"
         allowtransparency="true"
       ></iframe>
@@ -39,7 +39,7 @@ export default function Igposts() {
         title="IPost4"
         src="https://www.instagram.com/p/CmRTyhQD_Qg/embed"
         width="400"
-        height="400"
+        height="420"
         frameborder="0"
         allowtransparency="true"
       ></iframe>
