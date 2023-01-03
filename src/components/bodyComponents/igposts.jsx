@@ -13,7 +13,7 @@ export default function Igposts() {
       {" "}
       <iframe
         title="IPost1"
-        src="https://www.instagram.com/reel/CljBLtijHsb/embed"
+        src="https://www.instagram.com/p/CmO8G4mjwNC/embed"
         width="400"
         height="400"
         frameborder="0"
@@ -21,7 +21,7 @@ export default function Igposts() {
       ></iframe>
       <iframe
         title="IPost2"
-        src="https://www.instagram.com/p/Cmtwd62osRE/embed"
+        src="https://www.instagram.com/p/ClYektmjo9D/embed"
         width="400"
         height="400"
         frameborder="0"
@@ -37,7 +37,7 @@ export default function Igposts() {
       ></iframe>
       <iframe
         title="IPost4"
-        src="https://www.instagram.com/p/CmO8G4mjwNC/embed"
+        src="https://www.instagram.com/p/CmRTyhQD_Qg/embed"
         width="400"
         height="400"
         frameborder="0"
